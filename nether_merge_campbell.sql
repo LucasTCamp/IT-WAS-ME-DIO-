@@ -1,3 +1,6 @@
+-- Lucas Campbell
+-- 11/5/2025
+
 SELECT * FROM fortress1;
 SELECT * FROM fortress2;
 SELECT * FROM biomes;
@@ -90,4 +93,5 @@ WHEN NOT MATCHED THEN
 COMMIT;
 SELECT * FROM fortress1
 ORDER BY biome_id, mob_name;
+
 
